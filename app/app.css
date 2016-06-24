@@ -1,0 +1,93 @@
+#sec{
+background-image:url(/home/internship/Desktop/MirandaL-git/app/bg2.jpg);
+background-size: cover;
+height: 500px;
+}
+
+
+
+ul{
+  float:right;
+
+}
+li{
+  display:inline;
+  padding-left: 4px;
+}
+
+a{
+  color:white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+h1{
+  color:white;
+  font-size: 35px;
+  font-weight: lighter;
+
+}
+
+#btn{
+  border:2px solid white;
+  border-radius: 10%;
+  padding:10px;
+}
+
+#Q{
+  text-align: center;
+  padding-top: 100px;
+}
+
+#blue{
+  background-color: #0f85d9;
+  height:250px;
+  margin-top:-20px;
+  text-align: center;
+  padding-top: 50px;
+
+
+}
+
+h2{
+  color:white;
+  font-size: 30px;
+
+}
+
+ p{
+  color:white;
+  font-size: 20px;
+  padding-bottom: 14px;
+}
+
+#icons img{
+
+  height:60px;
+  width:60px;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding:10px;
+
+
+}
+
+#icons a{
+  padding-left: 150px;
+}
+
+#grey{
+  background-color:#413F3F;
+  height:200px;
+  color:white;
+  text-align: center;
+  margin-top: -23px;
+}
+#grey p{
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+#grey h1{
+  padding-top: 20px;
+}
