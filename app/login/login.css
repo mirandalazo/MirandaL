@@ -154,6 +154,11 @@ fieldset{
   text-align: right;
 }
 
+.register a{
+  color:white;
+  text-decoration: none;
+}
+
 .footer{
   height:700px;
   width:100%;
