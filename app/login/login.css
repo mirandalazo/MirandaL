@@ -1,0 +1,165 @@
+.container{
+  color:white;
+
+}
+header{
+  background-color: black;
+  height: 100px;
+
+}
+.head-wrapper{
+  width: 80%;
+  margin: auto
+
+}
+
+.inner-wrap{
+  width: 50%;
+  margin:auto;
+}
+.logo a{
+  color:white;
+  text-decoration: none;
+  font-size:35px;
+}
+
+.logo{
+  padding-top: 20px;
+  padding-left:200px;
+}
+.head{
+  width:80%;
+}
+
+.nav a{
+  color:white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav li{
+  display: inline;
+  padding-left: 10px;
+}
+
+.nav{
+  float: right;
+  margin-top: -45px;
+}
+
+.login{
+  width:100%;
+  height:550px;
+  background-color: #009999;
+  margin-top: -25px;
+}
+
+.log h1{
+  color:white;
+  font-size: 30px;
+}
+
+.log{
+
+  padding-top: 100px;
+}
+
+.user{
+
+  padding-bottom: 10px;
+}
+.user input{
+  width:100%;
+}
+.user label,input{
+  display: block;
+}
+
+
+.user label{
+  color: white;
+  font-size: 30px;
+
+}
+
+.pass{
+
+  display: block;
+}
+
+.pass label{
+  color: white;
+  font-size: 30px;
+
+}
+.pass input{
+  width:100%;
+}
+input{
+  background-color: transparent;
+  border:1px solid white;
+  border-radius: 5px;
+  height:30px;
+
+}
+input[type="password"]
+{
+  -webkit-text-security: disc;
+}
+
+.btn{
+  height: 30px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 5px;
+
+display: inline-block;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.butoane{
+  text-align:right;
+}
+.check label, .check input{
+  display: inline-block;
+}
+
+.check label{
+  color: white;
+}
+fieldset{
+  border-color: transparent;
+}
+.btn ,.check {
+  display: inline-block;
+
+}
+
+.register h3{
+  color:white;
+}
+.register, .butoane{
+  display:block;
+}
+.register{
+
+  width:78%;
+  text-align: right;
+}
+
+.footer{
+  height:700px;
+  width:100%;
+}
+
+.footer h1{
+  text-align:center;;
+
+}
