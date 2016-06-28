@@ -134,17 +134,17 @@ display: inline-block;
 .butoane{
   text-align:right;
 }
-.check label, .check input{
+.checkbox label, .checkbox input{
   display: inline-block;
 }
 
-.check label{
+.checkbox label{
   color: white;
 }
 fieldset{
   border-color: transparent;
 }
-.btn ,.check {
+.btn ,.checkbox {
   display: inline-block;
 
 }
