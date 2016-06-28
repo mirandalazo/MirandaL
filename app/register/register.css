@@ -43,7 +43,7 @@ header{
   margin-top: -45px;
 }
 
-.login{
+.register{
   width:100%;
   height:550px;
   background-color: #009999;
@@ -58,4 +58,89 @@ header{
 .log{
 
   padding-top: 100px;
+}
+
+.user{
+
+  padding-bottom: 10px;
+}
+.user input{
+  width:100%;
+}
+.user label,input{
+  display: block;
+}
+
+
+.user label{
+  color: white;
+  font-size: 30px;
+
+}
+
+.pass{
+
+  display: block;
+}
+
+.pass label{
+  color: white;
+  font-size: 30px;
+
+}
+.pass input{
+  width:100%;
+}
+input{
+  background-color: transparent;
+  border:1px solid white;
+  border-radius: 5px;
+  height:30px;
+
+}
+input[type="password"]
+{
+  -webkit-text-security: disc;
+}
+
+fieldset{
+  border-color: transparent;
+}
+
+.email input{
+  width:100%;
+}
+.email label{
+  color: white;
+  font-size: 30px;
+
+}
+
+.footer{
+  height:700px;
+  width:100%;
+}
+
+.footer h1{
+  text-align:center;;
+padding-top:200px;
+}
+
+.btn{
+  height: 30px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 5px;
+float: right;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 5px;
 }

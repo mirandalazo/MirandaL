@@ -1,51 +1,24 @@
+
 #sec{
-background-image:url(/home/internship/Desktop/MirandaL-git/app/bg2.jpg);
+background-image:url('assets/images/bg2.jpg');
 background-size: cover;
 height: 500px;
 }
 
 
-ul{
-  float:right;
-  margin-top:-10px;
-  margin-right: 20px;
-
-}
-li{
-  display:inline;
-  padding-left: 4px;
-}
-
-
 
 a{
-  color:white;
-  font-size: 25px;
+  color:black;
+  font-size:20px;
   text-decoration: none;
-}
-
-h1{
-  color:white;
-  font-size: 35px;
-  font-weight: lighter;
-
-}
-
-.logo a{
-  color:white;
-  text-decoration: none;
-  font-size:35px;
-}
-
-.logo{
-  margin-top: 10px;
-  padding-left:50px;
 }
 
 #btn{
   border:2px solid white;
   border-radius: 10%;
   padding:10px;
+  text-decoration: none;
+  color:white;
    transition: all 0.3s ease 0s;
 
 }
@@ -57,11 +30,17 @@ h1{
 #Q{
   text-align: center;
   padding-top: 100px;
+
+  color:white;
+}
+
+#Q h1{
+
 }
 
 #blue{
   background-color: #0f85d9;
-  height:250px;
+  height:300px;
   margin-top:-20px;
   text-align: center;
   padding-top: 50px;
@@ -100,19 +79,13 @@ h2{
 
 }
 
-.icon-inline{
-  display: inline-block;
-  margin:0 50px;
-  position:relative;
-  width:33,3%;
-  padding-bottom: 15px;
-}
+
 
 
 
 #grey{
   background-color:#413F3F;
-  height:900px;
+  height:auto;
   color:white;
   text-align: center;
   margin-top: -29px;
@@ -126,7 +99,11 @@ h2{
   padding-top: 20px;
 }
 
-.container{
+.col-md-4{
+  padding-bottom: 30px;
+  margin:auto;
+}
+.container-poze{
   width:1200px;
   margin: auto;
 }
@@ -142,16 +119,21 @@ h2{
     box-sizing: border-box;
     padding: 10px;
 }
+
+.img{
+  margin:auto;
+
+}
 .img img{
   width:100%;
 }
 
-.col a:hover{
+.col-md-4 a:hover{
   transform:scale(1.1);
   opacity:0.5;
 }
 
-.col a{
+.col-md-4 a{
   display: inline-block;
   transition:all .2s ease-in-out;
 }
@@ -188,7 +170,7 @@ transition: all 1s linear;
     transform: rotate(360deg);
 
 }
-@media only screen and (max-width: 1200px) {
+/*@media only screen and (max-width: 1200px) {
     .col {
       width:50%;
-    }
+    } */

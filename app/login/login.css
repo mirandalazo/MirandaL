@@ -53,7 +53,14 @@ header{
   background-color: #009999;
   margin-top: -25px;
 }
+.form-group input{
+  width:100%;
+}
 
+.form-group label{
+  color:white;
+  font-size:30px;
+}
 .log h1{
   color:white;
   font-size: 30px;
@@ -166,5 +173,5 @@ fieldset{
 
 .footer h1{
   text-align:center;;
-
+padding-top:200px;
 }

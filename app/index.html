@@ -1,80 +1,115 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>QShop</title>
-  <style></style>
-  <link rel="stylesheet" type="text/css" href="app.css">
-<link rel="stylesheet"  type="text/css" href="/home/internship/Desktop/MirandaL-git/app/Assets/assets/css/font-awesome.css">
-<link rel="stylesheet" media="mediatype and|not|only (media feature)" href="app.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="assets/js/jquery-2.2.4.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+
 </head>
+
 <body id="top">
 
-  <section id="sec">
-    <header>
-     <a href="#" class="logo"><strong>QShop</strong></a>
-    <nav>
-      <ul>
-    <li>  <a href="about/about.html">About</a></li>
-    <li>  <a href="contact/contact.html">Contact</a></li>
-    <li>  <a href="login/login.html">Login</a></li>
-  </ul>
-    </nav>
-</header>
+    <header id="head">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" data-target="#myNavbar" data-toggle="collapse" class="btn btn-default btn-lg navbar-toggle">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
 
-<div id="Q">
-<h1>QShop</h1>
-<a href="#" id="btn">Learn More</a>
-</div>
-</section>
+                    <a href="index.html" class="navbar-brand"><strong>QShop</strong></a>
+                </div>
+                <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li> <a href="about/about.html">About</a></li>
+                        <li> <a href="contact/contact.html">Contact</a></li>
+                        <li> <a href="login/login.html">Login</a></li>
+                    </ul>
+                </div>
 
-<div id="blue">
-  <h2>Carpe diem</h2>
-  <p>Carpe diem is a Latin aphorism, usually translated "seize the day", taken from book 1 of the Roman poet Horace's work Odes (23 BC).</p>
-  <div class="icon-inline">
-  <div class="img-wrap"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/user-icon.png"/></div>
-</div>
-<div class="icon-inline">
-  <div class="img-wrap">  <img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/message-icon.jpg"/></div>
-</div>
-<div class="icon-inline">
-  <div class="img-wrap"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/clock-icon.jpg"/></div>
-</div>
-  </div>
+            </div>
+        </nav>
+    </header>
 
 
-<section id="grey">
+    <section id="sec">
+        <div id="Q">
+            <h1>QShop</h1>
+            <a href="#" id="btn">Learn More</a>
+        </div>
+    </section>
 
-<div class="container group">
-  <h1>Carpe diem</h1>
-  <p>In Horace, the phrase is part of the longer "carpe diem, quam minimum credula postero", which can be translated as "Seize the day, put very little trust in tomorrow (the future)". The ode says that the future is unforeseen and that one should not leave to chance future happenings, but rather one should do all one can today to make one's future better. </p>
-<div class="row">
-<div class="col">
-<div class="img">  <a href="#"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/p1.jpg"/></a></div>
+    <div id="blue">
+      <div class="container">
+        <div class="row">
+        <h2>Carpe diem</h2>
+        <p>Carpe diem is a Latin aphorism, usually translated "seize the day", taken from book 1 of the Roman poet Horace's work Odes (23 BC).</p>
+        <div class=" col-sm-4">
+            <div class="img-wrap"><img src="assets/images/user-icon.png" /></div>
+        </div>
+        <div class=" col-sm-4">
+            <div class="img-wrap"> <img src="assets/images/message-icon.jpg" /></div>
+        </div>
+        <div class=" col-sm-4">
+            <div class="img-wrap"><img src="assets/images/clock-icon.jpg" /></div>
+        </div>
+      </div>
+    </div>
 </div>
-<div class="col">
-<div class="img">  <a href="#"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/p2.jpg"/></a></div>
-</div>
-<div class="col">
-<div class="img">  <a href="#"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/p3.jpg"/></a></div>
-</div>
-<div class="col">
-<div class="img"><a href="#"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/p4.jpg"/></a></div>
-</div>
-<div class="col">
-  <div class="img"><a href="#"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/p5.jpg"/></a></div>
-</div>
-<div class="col">
-  <div class="img"><a href="#"><img src="/home/internship/Desktop/MirandaL-git/app/Assets/assets/images/p6.jpg"/></a></div>
-</div>
-</div>
-</div>
-</section>
-<footer id="footer">
-  <div class="cp">
- <h1>Copyright  <a href="#top" id="back"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></h1>
 
-  <div>
-</footer>
+    <section id="grey">
+
+        <div class="container">
+          <div class="row">
+            <h1>Carpe diem</h1>
+            <p>In Horace, the phrase is part of the longer "carpe diem, quam minimum credula postero", which can be translated as "Seize the day, put very little trust in tomorrow (the future)". The ode says that the future is unforeseen and that one should
+                not leave to chance future happenings, but rather one should do all one can today to make one's future better. </p>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="img">
+                        <a href="#"><img src="assets/images/p1.jpg" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="img">
+                        <a href="#"><img src="assets/images/p2.jpg" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="img">
+                        <a href="#"><img src="assets/images/p3.jpg" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="img">
+                        <a href="#"><img src="assets/images/p4.jpg" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="img">
+                        <a href="#"><img src="assets/images/p5.jpg" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="img">
+                        <a href="#"><img src="assets/images/p6.jpg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="cp">
+            <h1>Copyright  <a href="#top" id="back"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></h1>
+
+            <div>
+    </footer>
 </body>
+
 </html>

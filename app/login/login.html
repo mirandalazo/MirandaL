@@ -4,6 +4,9 @@
   <title>Login</title>
   <style></style>
   <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+    <script src="assets/js/jquery-2.2.4.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
 
@@ -14,9 +17,9 @@
 
   <nav class="nav">
     <ul>
-  <li>  <a href="about/about.html">About</a></li>
-  <li>  <a href="contact/contact.html">Contact</a></li>
-  <li>  <a href="register/register.html">Register</a></li>
+  <li>  <a href="../about/about.html">About</a></li>
+  <li>  <a href="../contact/contact.html">Contact</a></li>
+  <li>  <a href="../register/register.html">Register</a></li>
 </ul>
   </nav>
 </div>
@@ -30,13 +33,16 @@
     <h1>Login</h1>
   </div>
   <fieldset>
-  <div class="user">
+
+
+  <div class="form-group">
   <label for="user">Username</label>
-  <input type="text" name="username" placeholder="FirstName LastName">
+  <input type="text" class="form-control" name="username" placeholder="FirstName LastName">
 </div>
-<div class="pass">
+<!-- <div class="pass"> -->
+<div class="form-group">
 <label for="password">Password</label>
-<input type="password" name="password" >
+<input type="password"  class="form-control" name="password" >
 </div>
 </fieldset>
 
