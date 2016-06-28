@@ -40,11 +40,11 @@ a{
 
 #blue{
   background-color: #0f85d9;
-  height:300px;
+  height:auto;
   margin-top:-20px;
   text-align: center;
   padding-top: 50px;
-
+padding-bottom: 10px;
 
 }
 
@@ -90,7 +90,7 @@ h2{
   height:auto;
   color:white;
   text-align: center;
-  margin-top: -29px;
+
 }
 #grey p{
   padding-left:20px;
