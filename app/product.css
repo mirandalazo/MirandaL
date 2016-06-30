@@ -1,0 +1,150 @@
+ul a{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.img-wrap{
+  margin-top:100px;
+}
+
+.data{
+  margin-top: 120px;
+}
+
+.butn input{
+  width:35px;
+  border-radius: 0px;
+}
+
+.butn{
+  display: inline-flex;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.butn .semn {
+  background-color: #f23918;
+  font-size: 15px;
+  width:30px;
+
+}
+
+#minus{
+  border-radius: 5px 0px 0px 5px;
+}
+
+#plus{
+  border-radius: 0px 5px 5px 0px;
+
+}
+
+.butn p{
+  font-size: 15px;
+  color: white;
+  padding-top: 3px;
+}
+
+.butn button{
+  margin-left: 70px;
+}
+.tab-pane{
+  margin-bottom: 30px;
+  background-color: #f23918;
+
+}
+.tab-content{
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(204,204,204,1);
+-moz-box-shadow: 0px 4px 0px 0px rgba(204,204,204,1);
+box-shadow: 0px 4px 0px 0px rgba(204,204,204,1);
+}
+.detail{
+  margin-top: 30px;
+  color:#f23918;
+}
+
+.detail li{
+  background-color: #f2eeed;
+  border-radius: 5px 5px 0px 0px;
+
+}
+.detail a{
+  color:#f23918;
+}
+.detail li:hover{
+  -webkit-box-shadow: 0px -6px 0px 0px rgba(242,57,24,1);
+-moz-box-shadow: 0px -6px 0px 0px rgba(242,57,24,1);
+box-shadow: 0px -6px 0px 0px rgba(242,57,24,1);
+
+}
+
+table,tr,td{
+  border:1px solid white;
+}
+
+.tabel{
+  margin-top:30px;
+  background-color: #f23918;
+  color:white;
+  padding: 20px;
+  margin-bottom: 30px;
+
+}
+
+.tabel td{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.rev{
+  background-color: #f23918;
+  width:100%;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.rev h3{
+  color: white;
+  margin-top: -5px;
+}
+
+#descript h4{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cp{
+  display: inline;
+}
+#footer{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#footer h1{
+  text-align: center;
+  padding-top: 20px;
+  color:black;
+}
+
+#back {
+  border:3px solid grey;
+  border-radius: 50%;
+  padding:5px;
+display: inline-block;
+transition: all 1s linear;
+
+}
+
+#back:hover{
+  -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+
+}

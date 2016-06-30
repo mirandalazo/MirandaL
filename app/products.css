@@ -1,3 +1,11 @@
+.pagination li a{
+  color:black;
+}
+.pages{
+  margin-bottom: 40px;
+padding-top: 40px;
+}
+
 ul a{
   font-size:20px;
   font-weight: bold;
@@ -41,6 +49,28 @@ ul a{
   height:200px;
   width:100%;
   position:relative;
+}
+.img-wrap :hover .cart{
+  transform: scale(0.9);
+  opacity: 1;
+}
+.cart a{
+  transition: none;
+  color: white;
+  text-decoration: none;
+}
+
+.cart{
+
+  width:100%;
+  background-color: grey;
+  border-radius: 5px;
+  position: absolute;
+  color:white;
+  font-size: 20px;
+  transition: all, 0.5s, ease-in-out;
+  z-index: 19;
+  display: none;
 }
 
 .img-wrap img{
@@ -127,14 +157,4 @@ font-size: 17px;
 
 .s2{
   margin-bottom: 60px;
-}
-
-.cart{
-
-  width:100%;
-  background-color: grey;
-  border-radius: 5px;
-  position: absolute;
-  color:white;
-  font-size: 20px;
 }

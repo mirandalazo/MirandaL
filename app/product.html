@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop</title>
+  <script src="assets/js/jquery-2.2.4.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="product.css">  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" data-target="#Sheader" data-toggle="collapse" class="btn btn-default btn-lg navbar-toggle">
+                      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                  </button>
+                  <a href="products.html" class="navbar-brand"><strong>QShop</strong></a>
+              </div>
+
+              <div id="Sheader" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="about/about.html">About</a></li>
+                      <li><a href="contact/contact.html">Contact</a></li>
+                      <li><a href="login/login.html">Login</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="img-wrap">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="assets/products/product-1.jpg" alt="img 1">
+      <div class="carousel-caption">
+      Slide 1
+      </div>
+    </div>
+    <div class="item">
+      <img src="assets/products/product-2.jpg" alt="img 2">
+      <div class="carousel-caption">
+Slide 2
+      </div>
+    </div>
+    <div class="item ">
+      <img src="assets/products/product-3.jpg" alt="img 3">
+      <div class="carousel-caption">
+      Slide 3
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="data">
+          <h2>Awesome Product</h2>
+          <p>1 review</p>
+          <h2>$22</h2>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45BC,making it over 2000 years old.</p>
+          <div class="butn">
+          <div class="semn" id="minus" ><p><strong>-</strong></p></div>
+        <input type="text" class="form-control" name="number"placeholder="1" >
+           <div class="semn" id="plus"><p>+</p></div>
+              <button type="button" class="btn btn-primary"><strong>Add to cart</strong></button>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+       <ul class="nav nav-tabs" role="tablist">
+         <li role="presentation" class="active"><a href="#descript" aria-controls="desc" role="tab" data-toggle="tab">Description</a></li>
+   <li role="presentation"><a href="#Specif" aria-controls="specif" role="tab" data-toggle="tab">Specifications</a></li>
+   <li role="presentation"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">Review</a></li>
+       </ul>
+       <div class="tab-content">
+   <div role="tabpanel" class="tab-pane active" id="descript">
+     <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h4>
+
+   </div>
+   <div role="tabpanel" class="tab-pane" id="Specif">
+     <div class="tabel">
+       <table style="width:100%">
+  <tr>
+    <td>Size</td>
+    <td>20'X 30'</td>
+  </tr>
+  <tr>
+    <td>Colors</td>
+    <td>Red, Blue</td>
+  </tr>
+  <tr>
+    <td>Material</td>
+    <td>100% Cotton</td>
+  </tr>
+</table>
+     </div>
+   </div>
+   <div role="tabpanel" class="tab-pane" id="review">
+     <div class="rev">
+       <h3>Review here</h3>
+     </div>
+   </div>
+ </div>
+    </div>
+
+    <footer id="footer">
+        <div class="cp">
+            <h1>Copyright  <a href="#top" id="back"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></h1>
+
+            <div>
+    </footer>
+  </div>
+</section>
+
+</body>
+</html>
