@@ -1,5 +1,5 @@
 
-#sec{
+#section-title{
 background-image:url('assets/images/bg2.jpg');
 background-size: cover;
 height: 500px;
@@ -13,29 +13,32 @@ a{
   text-decoration: none;
 }
 
-#btn{
+#btn-learn{
   border:2px solid white;
-  border-radius: 10%;
+  border-radius: 6px;
   padding:10px;
   text-decoration: none;
   color:white;
    transition: all 0.3s ease 0s;
-
 }
 
-#Q a:hover {
+#btn-learn a{
+  font-size: 40px;
+}
+
+#Qlogo a:hover {
   background: #CF4647;
 }
 
-#Q{
+#Qlogo{
   text-align: center;
   padding-top: 100px;
 
   color:white;
 }
 
-#Q h1{
-
+#Qlogo h1{
+margin-bottom: 30px;
 }
 
 #blue{
@@ -48,14 +51,14 @@ padding-bottom: 10px;
 
 }
 
-h2{
+#blue h2{
   color:white;
   font-size: 30px;
   margin-top: -10px;
 
 }
 
- p{
+ #blue p{
   color:white;
   font-size: 20px;
   padding-bottom: 14px;
@@ -147,7 +150,7 @@ h2{
   text-align: center;
 
 }
-.cp{
+.footer-text{
   display: inline;
 }
 

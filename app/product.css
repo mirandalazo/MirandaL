@@ -11,19 +11,19 @@ ul a{
   margin-top: 120px;
 }
 
-.butn input{
+.butn-semne input{
   width:35px;
   border-radius: 0px;
 }
 
-.butn{
+.butn-semne{
   display: inline-flex;
   text-align: center;
   margin-top: 20px;
 
 }
 
-.butn .semn {
+.butn-semne .semn {
   background-color: #f23918;
   font-size: 15px;
   width:30px;
@@ -39,13 +39,13 @@ ul a{
 
 }
 
-.butn p{
+.butn-semne p{
   font-size: 15px;
   color: white;
   padding-top: 3px;
 }
 
-.butn button{
+.butn-semne button{
   margin-left: 70px;
 }
 .tab-pane{
@@ -101,14 +101,14 @@ table,tr,td{
   padding-left: 20px;
 }
 
-.rev{
+.review{
   background-color: #f23918;
   width:100%;
   padding: 15px;
   margin-top: 20px;
 }
 
-.rev h3{
+.review h3{
   color: white;
   margin-top: -5px;
 }
@@ -120,7 +120,7 @@ table,tr,td{
   padding-bottom: 10px;
 }
 
-.cp{
+.footer-text{
   display: inline;
 }
 #footer{

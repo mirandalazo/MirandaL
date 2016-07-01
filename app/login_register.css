@@ -3,12 +3,12 @@
   height: 100px;
 
 }
+
 .head-wrapper{
   width: 80%;
   margin: auto
 
 }
-
 .inner-wrap{
   width: 50%;
   margin:auto;
@@ -18,13 +18,9 @@
   text-decoration: none;
   font-size:35px;
 }
-
 .logo{
   padding-top: 20px;
   padding-left:200px;
-}
-.head{
-  width:80%;
 }
 
 .nav a{
@@ -50,16 +46,15 @@
   margin-top: -25px;
 }
 
-.log h1{
-  color:white;
-  font-size: 30px;
-}
-
 .log{
 
   padding-top: 100px;
 }
 
+.log h1{
+  color:white;
+  font-size: 30px;
+}
 .user{
 
   padding-bottom: 10px;
@@ -70,53 +65,34 @@
 .user label,input{
   display: block;
 }
-
-
 .user label{
   color: white;
   font-size: 30px;
-
 }
-
 .pass{
-
   display: block;
 }
-
 .pass label{
   color: white;
   font-size: 30px;
-
 }
 .pass input{
   width:100%;
 }
+
 input{
   background-color: transparent;
   border:1px solid white;
   border-radius: 5px;
   height:30px;
-
 }
+
 input[type="password"]
 {
   -webkit-text-security: disc;
 }
 
-fieldset{
-  border-color: transparent;
-}
-
-.email input{
-  width:100%;
-}
-.email label{
-  color: white;
-  font-size: 30px;
-
-}
-
-.footer{
+footer{
   height:700px;
   width:100%;
 }
@@ -124,23 +100,4 @@ fieldset{
 .footer h1{
   text-align:center;;
 padding-top:200px;
-}
-
-.btn-register{
-  height: 30px;
-  width: 80px;
-  border: 1px solid white;
-  border-radius: 4px;
-  text-align: center;
-  padding-top: 5px;
-float: right;
-margin-top: 20px;
-margin-right: 20px;
-}
-
-.btn-register a{
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  padding-top: 5px;
 }

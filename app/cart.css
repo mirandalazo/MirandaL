@@ -1,0 +1,136 @@
+ul a{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.butn-semne input{
+  width:35px;
+  border-radius: 0px;
+}
+
+.butn-semne{
+  display: inline-flex;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.butn-semne .semn {
+  background-color: #f23918;
+  font-size: 15px;
+  width:30px;
+
+}
+
+#minus{
+  border-radius: 5px 0px 0px 5px;
+}
+
+#plus{
+  border-radius: 0px 5px 5px 0px;
+
+}
+
+.butn-semne p{
+  font-size: 15px;
+  color: white;
+  padding-top: 3px;
+}
+
+.tabel img{
+  height: 60px;
+  width:60px;
+  margin-bottom: 10px;
+    margin-top:10px;
+}
+
+#shopping-cart{
+margin-top: 90px;
+}
+
+#shopping-cart h1{
+  margin-bottom: 40px;
+
+}
+
+.tabel tr{
+  border-bottom: 1px solid #BFBABA;
+}
+
+.butn-semne{
+  margin-top: -5px;
+}
+
+#col-tabel td{
+  font-size: 20px;
+}
+
+.update{
+  float:right;
+  margin-top: 10px;
+}
+
+.update button{
+  background-color:  #f23918;
+}
+
+.city, .zip{
+  /*display: inline-block;*/
+}
+/*.city input{
+  width:100%;
+}
+
+.zip input{
+  width: 100%;
+}*/
+
+.table2 tr{
+  border-top: 1px solid #BFBABA;
+  p
+}
+
+.table2{
+margin-top: 30px;
+}
+
+.table2 td{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.table2 h2{
+  color:  #f23918;
+}
+
+
+
+.footer-text{
+  display: inline;
+}
+#footer{
+  margin-top: 190px;
+  margin-bottom: 30px;
+}
+#footer h1{
+  text-align: center;
+  padding-top: 20px;
+  color:black;
+}
+
+#back {
+  border:3px solid grey;
+  border-radius: 50%;
+  padding:5px;
+display: inline-block;
+transition: all 1s linear;
+
+}
+
+#back:hover{
+  -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+
+}
